@@ -1,0 +1,130 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+}
+  
+  /* set content highlight color and background */
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(17, 17, 17);
+    color: #ffffff;
+}
+  
+.header div {
+    padding-top: 10px;
+    margin-right: 50px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header h1 {
+    font-size: 6rem;
+}
+
+a {
+    color: #000000;
+    /* remove underline on hyperlink */
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+  
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    
+    
+}
+
+p {
+    margin: 0;
+}
+  
+h1 {
+    margin-bottom: 0.625rem;
+    color: #4a81e7;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.page-section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.page-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 4vw;
+  line-height: 1.1;
+}
+.page-section > div {
+  flex: 0 0 77%;
+}
+
+.page-section p {
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .page-section > h2,
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .page-section > h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+}
