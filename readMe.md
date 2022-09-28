@@ -46,7 +46,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Deployed Application
-
+https://cmempalmado.github.io/02-Advanced-CSS-Portfolio/
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
