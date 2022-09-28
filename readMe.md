@@ -43,6 +43,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Mock-Up
+![Screenshot](https://user-images.githubusercontent.com/107980867/192772148-81965079-b43c-474d-a9af-ebd064aa7a01.jpg)
 
 
 ## Deployed Application
