@@ -1,101 +1,97 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en US">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./style.css">
-    <title>Christian Empalmado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Empalmado Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Christian Empalmado</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#aboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contactMe">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <main>
+        <!-- header + navigation links -->
+        <header>
+            <div class="header">
+                <nav>
+                    <ul>
+                        <li><a href="#About">About Me</a></li>
+                        <li><a href="#MyWork">My Work</a></li>
+                        <li><a href="#Contact">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>    
 
-    <div class="itsMe">
-        <h3>Welcome to my Homepage!</h3>
-    </div>
+        <figure>
+            <!-- cool background thingy connecting header and sections -->
+            <div class="hero">
+                <h1>Christian Empalmado</h1>
+                <img id="my-img" src="images/luffy.jpg">
+                <h2> A Full Stack Web Developer </h2>
+                <h3>It's me and my dynamically created projects!</h3>
+            </div>    
+        </figure>
 
-    <main class="page-wrapper">
-        <section class="page-section" id="aboutMe">
-            <h2>About Me</h2>
-            <div class="about-me" >
-                <p>My Name is Christian Empalmado. A student of UCI that is currently snerolled under Web Developement Program. Aspiring to be a future software engineer.</p>
-            </div>
+        <div class="content">
+            <section class="container">
+                <h3 id="About">About Me</h3>
+                <p id="AboutText">Hi! I'm Christian. I am going to be a full-stack developer as I finish my bootcamp at UCI.
+                    Here you can see all the projects that I will create as I continue learning how to be a full-stack developer.
+                     
+                </p>
+            </section>
+
+
+        <div id="MyWork">
+            <section class="container">
+                <h3>Work</h3>
+                    <div class="workFlex">
+                        <div class="Work1">
+                            <a href="https://github.com/cmempalmado">
+                                <img src="images/project-wallpaper.jpg" alt="Project 1">
+                            </a>    
+                        </div>
+                        <div class="Work2">
+                            <a href="https://github.com/cmempalmado">
+                                <img src="images/project-wallpaper.jpg" alt="Project 2">
+                                
+                            </a>    
+                                
+                        </div>
+                        <div class="Work2">
+                            <a href="https://github.com/cmempalmado">
+                                <img src="images/project-wallpaper.jpg" alt="Project 3">
+                            </a>    
+                                
+                        </div>
+                        <div class="Work2">
+                            <a href="https://github.com/cmempalmado">
+                                <img src="images/project-wallpaper.jpg" alt="Project 4">
+                            </a>    
+                                
+                        </div>
+                    </div>
+                </section>
+        </div>        
+
+        <section id="Contact">
+            <div class="container">
+                <h3>Contact Me</h3>
+                <nav>
+                    <ul id="contactList">
+                        <li>(657)377-9887</li>
+                        <li><a href="cmempalmado@gmail.com">Email</a></li>
+                        <li><a href="https://github.com/cmempalmado">Github</a></li>
+                    </ul>
+                </nav>
+            </div>    
         </section>
-    
-        <section class="page-section" id="work">
-            <h2>Work</h2>
-            <div class="flex-container">
+        
+        <footer>
+            <h2>Christian Empalmado 2022</h2>
+        </footer>
 
-                <a href="#" class="flex-item project1">
-                    <div>
-                        <h3>Project 1</h3>
-                        <span>Film Finder</span>
-                    </div>
-                </a>
-
-                <a href="#" class="flex-item project2">
-                    <div>
-                        <h3>Project 2</h3>
-                        <span>second project</span>
-                    </div>
-                </a>
-
-                <a href="#" class="flex-item project3">
-                    <div>
-                        <h3>Project 3</h3>
-                        <span>third project</span>
-                    </div>
-                </a>
-
-                <a href="#" class="flex-item project4">
-                    <div>
-                        <h3>Project 4</h3>
-                        <span>fourth project</span>
-                    </div>
-                </a>
-
-                <a href="#" class="flex-item project5">
-                    <div>
-                        <h3>Project 5</h3>
-                        <span>fifth project</span>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-
-        <section class="page-section" id="contactMe">
-            <h2>Contact Me</h2>
-                <div>
-                    <address>
-                        <a href="tel:+16573779887">(657)377-9887</a>
-                        <a href="mailto:cmempalmado@gmail.com">cmempalmado@gmail.com</a>
-                        <a href="#">GitHub</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Spotify</a>
-
-                    </address>
-                </div>
-        </section>
     </main>
 </body>
-
 </html>
