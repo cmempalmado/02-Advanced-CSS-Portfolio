@@ -142,6 +142,14 @@ figure h3 {
 
 }
 
+h4 {
+  color: rgba(6, 44, 212, 0.856);
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 #MyWork .container h3 {
   padding-right: 200px;
 }
